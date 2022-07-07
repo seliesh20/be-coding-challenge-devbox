@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use ApiPlatform\Core\Annotation\ApiResource;
+use ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\SearchFilter;
 use App\Controller\LogsController;
 use App\Repository\LogSyncRepository;
 use Doctrine\ORM\Mapping as ORM;
@@ -95,6 +96,7 @@ use Doctrine\ORM\Mapping as ORM;
     ],
     itemOperations:[]
 )]
+
 class LogSync
 {
     #[ORM\Id]

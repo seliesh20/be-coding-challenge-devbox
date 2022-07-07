@@ -66,7 +66,7 @@
         },
         "ensure-db-exists":{
             "db": "bin/console doctrine:database:create  --if-not-exists",
-	    "db": "bin/console doctrine:migrations:migrate"
+	        "db": "bin/console doctrine:migrations:migrate"
         },
         "post-install-cmd": [
             "@auto-scripts",
