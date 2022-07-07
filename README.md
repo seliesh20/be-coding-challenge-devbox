@@ -2,9 +2,10 @@
 
 ## Tasks
 
-- 1. Created console command 'app:log-sync <filename>'. It will check the file in '/var/log' folder
+- 1. Created console command `app:log-sync <filename>`. It will check the file in `/var/log` folder
 - 2. Created API for return the count for the endpoing '/count'
 - 3. Modified composer.json to migrate the database 
+- 4. Written basic test for the tasks
 
 ## Setup
 
