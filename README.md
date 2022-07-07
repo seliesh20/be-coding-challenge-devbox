@@ -16,6 +16,7 @@
 - The default database is called `database` and the username and password are `root` and `root`
   respectively
 - Makefile with some basic commands
+- If you found error in the /count endpoint try run `composer require api`
 
 ## Installation
 
